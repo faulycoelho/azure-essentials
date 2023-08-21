@@ -1,12 +1,14 @@
 ﻿using Azure.Identity;
 using Azure.Storage.Blobs;
 
+Console.WriteLine("[Starting]");
+
 string storageAccount = Environment.GetEnvironmentVariable("AZURE_ESSENTIALS_STORAGE");
+Console.WriteLine($"[Storage Account]:\t {storageAccount}");
+
 BlobServiceClient client = new(
         new Uri($"https://{storageAccount}.blob.core.windows.net"),
         new DefaultAzureCredential());
-
-Console.WriteLine("[Starting]");
 
 string blobContainerName = "mycontainer-az";
 var containerClient = client.GetBlobContainerClient(blobContainerName);
