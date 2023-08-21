@@ -3,7 +3,7 @@ using Microsoft.Azure.Cosmos;
 using Microsoft.Azure.Cosmos.Fluent;
 using Microsoft.Azure.Cosmos.Linq;
 
-const string connectionString = "AccountEndpoint=https://mslearn-6919425.documents.azure.com:443/;AccountKey=hlmvEM0t0HVeLDr09CIandAcnW5Z7hkDSqN1CKbUBoijUlcCRhZzErwxOfc7tdVEeDrwQ18QWP9UACDbNG9ueA==;";
+string connectionString = Environment.GetEnvironmentVariable("AZURE_ESSENTIALS_COSMOSDB");
 Console.WriteLine($"[Connection string]:\t{connectionString}");
 
 CosmosSerializationOptions serializerOptions = new()
