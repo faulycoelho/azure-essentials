@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Storage", "2.Storage", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "storage", "storage\storage.csproj", "{1094DAA0-BCFA-40CE-9100-FC54832BAEA5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.QueueStorage", "3.QueueStorage", "{7A5EBCBC-58AD-457A-A32D-4F79605401F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue-storage-publish-subscribe", "3.QueueStorage\Publisher\queue-storage-publish-subscribe.csproj", "{A3AF759D-4EBA-4EF0-B489-0BDAC530E793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherAndConsumer", "3.QueueStorage\Publisher\PublisherAndConsumer.csproj", "{A3AF759D-4EBA-4EF0-B489-0BDAC530E793}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.StorageQueue", "3.StorageQueue", "{475A553E-BA66-4754-B10F-1907D5559120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,7 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{727C54F4-7159-405A-A66E-74578921C0C4} = {834A296F-B1B7-4F0D-9084-2219CF4D3C03}
 		{1094DAA0-BCFA-40CE-9100-FC54832BAEA5} = {2E875FDA-48F4-4890-BEE7-494FD98561DE}
-		{A3AF759D-4EBA-4EF0-B489-0BDAC530E793} = {7A5EBCBC-58AD-457A-A32D-4F79605401F5}
+		{A3AF759D-4EBA-4EF0-B489-0BDAC530E793} = {475A553E-BA66-4754-B10F-1907D5559120}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B1C43B9-5227-42EA-A8D7-8EBF24D2FCD9}
