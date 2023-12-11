@@ -17,9 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.StorageQueue", "3.Storage
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.ServiceBus", "4.ServiceBus", "{6142B352-51BD-40E8-AB61-C9385F024C6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publisher", "4.ServiceBus\publisher\publisher.csproj", "{2F1F8D5A-1574-45E7-8215-E3117AC69D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "publisher", "4.ServiceBus\publisher\publisher.csproj", "{2F1F8D5A-1574-45E7-8215-E3117AC69D72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consumer", "4.ServiceBus\consumer\consumer.csproj", "{337F3128-1184-4569-85D3-E40E92133DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consumer", "4.ServiceBus\consumer\consumer.csproj", "{337F3128-1184-4569-85D3-E40E92133DE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.RedisCache", "5.RedisCache", "{47F3A727-DD53-4A00-AED9-19F790B5F2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redis-cache", "5.RedisCache\redis-cache\redis-cache.csproj", "{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{337F3128-1184-4569-85D3-E40E92133DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337F3128-1184-4569-85D3-E40E92133DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{337F3128-1184-4569-85D3-E40E92133DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{A3AF759D-4EBA-4EF0-B489-0BDAC530E793} = {475A553E-BA66-4754-B10F-1907D5559120}
 		{2F1F8D5A-1574-45E7-8215-E3117AC69D72} = {6142B352-51BD-40E8-AB61-C9385F024C6B}
 		{337F3128-1184-4569-85D3-E40E92133DE7} = {6142B352-51BD-40E8-AB61-C9385F024C6B}
+		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A} = {47F3A727-DD53-4A00-AED9-19F790B5F2A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B1C43B9-5227-42EA-A8D7-8EBF24D2FCD9}
