@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consumer", "4.ServiceBus\co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.RedisCache", "5.RedisCache", "{47F3A727-DD53-4A00-AED9-19F790B5F2A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redis-cache", "5.RedisCache\redis-cache\redis-cache.csproj", "{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "redis-cache", "5.RedisCache\redis-cache\redis-cache.csproj", "{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cosmos-db-change-feed", "cosmos-db\cosmos-db-change-feed\cosmos-db-change-feed.csproj", "{A7727E89-0D7C-4D04-BC6D-5C48A79B21B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7727E89-0D7C-4D04-BC6D-5C48A79B21B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7727E89-0D7C-4D04-BC6D-5C48A79B21B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7727E89-0D7C-4D04-BC6D-5C48A79B21B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7727E89-0D7C-4D04-BC6D-5C48A79B21B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{2F1F8D5A-1574-45E7-8215-E3117AC69D72} = {6142B352-51BD-40E8-AB61-C9385F024C6B}
 		{337F3128-1184-4569-85D3-E40E92133DE7} = {6142B352-51BD-40E8-AB61-C9385F024C6B}
 		{1BE59E11-D6C5-49F9-8EE7-EED25C49D45A} = {47F3A727-DD53-4A00-AED9-19F790B5F2A5}
+		{A7727E89-0D7C-4D04-BC6D-5C48A79B21B3} = {834A296F-B1B7-4F0D-9084-2219CF4D3C03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B1C43B9-5227-42EA-A8D7-8EBF24D2FCD9}

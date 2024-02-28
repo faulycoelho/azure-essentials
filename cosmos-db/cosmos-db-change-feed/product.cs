@@ -1,0 +1,1 @@
+﻿public record Product(string id, string name, string categoryId);
